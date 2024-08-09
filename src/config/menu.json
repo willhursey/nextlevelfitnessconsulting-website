@@ -44,20 +44,32 @@
         {
           "name": "404",
           "url": "/404/"
+        },
+        {
+          "name": "Features",
+          "url": "/feature/"
+        },
+        {
+          "name": "Pricing",
+          "url": "/pricing/"
+        },
+        {
+          "name": "Contact",
+          "url": "/contact/"
         }
       ]
     },
     {
-      "name": "Features",
-      "url": "/feature/"
+      "name": "About",
+      "url": "/about/"
     },
     {
-      "name": "Pricing",
-      "url": "/pricing/"
+      "name": "Blog",
+      "url": "/blog/"
     },
     {
-      "name": "Contact",
-      "url": "/contact/"
+      "name": "Review",
+      "url": "/review/"
     }
   ],
   "footer_menu": [
