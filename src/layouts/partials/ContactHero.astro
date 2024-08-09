@@ -68,23 +68,17 @@ const { hero }: { hero: Hero } = (await getEntry("contact", "-index")).data;
             )}
           </div>
           <div class="relative pt-24 lg:col-5 lg:pt-16" data-aos="fade-left-sm" data-aos-delay="200">
-            <ImageMod
-              class="absolute left-1/2 top-5 -z-10 w-20 -translate-x-1/2 lg:-top-7"
-              src={"/images/logo-icon.svg"}
-              alt="hero image"
-              loading="eager"
-            />
             <div class="rounded-2xl bg-theme-light p-5 md:p-10">
-              <form class="row g-4 " action={contact_form_action} method="POST">
+              <form class="row g-4" name="contact" netlify>
                 <div class="lg:col-6">
                   <label for="name" class="form-label">
                     First Name <span class="text-red-500">*</span>
                   </label>
                   <input
-                    id="name"
-                    name="name"
+                    id="first_name"
+                    name="last_name"
                     class="form-input"
-                    placeholder="Your First Name"
+                    placeholder="John"
                     required
                     type="text"
                   />
@@ -94,10 +88,10 @@ const { hero }: { hero: Hero } = (await getEntry("contact", "-index")).data;
                     Last Name <span class="text-red-500">*</span>
                   </label>
                   <input
-                    id="name"
-                    name="name"
+                    id="last_name"
+                    name="last_name"
                     class="form-input"
-                    placeholder="Your Last Name"
+                    placeholder="Doe"
                     required
                     type="text"
                   />
@@ -116,30 +110,24 @@ const { hero }: { hero: Hero } = (await getEntry("contact", "-index")).data;
                   />
                 </div>
                 <div class="col-12">
-                  <label for="comapny-name" class="form-label">
-                    Company Name <span class="text-red-500">*</span>
+                  <label for="plan" class="form-label">
+                    Select your plan:
                   </label>
-                  <input
-                    id="comapny-name"
-                    name="comapny-name"
-                    class="form-input"
-                    placeholder="Your Company Name"
-                    required
-                    type="text"
-                  />
-                </div>
-                <div class="col-12">
-                  <label for="subject" class="form-label">
-                    Subject <span class="text-red-500">*</span>
+                  <label class="form-control">
+                    <input id="meal_plan" name="plan" type="radio" name="radio" />
+                    Meal Plan
                   </label>
-                  <input
-                    id="subject"
-                    name="subject"
-                    class="form-input"
-                    placeholder="Your Company Name"
-                    required
-                    type="text"
-                  />
+
+                  <label class="form-control">
+                    <input id="workout_plan" name="plan" type="radio" name="radio" />
+                    Workout Plan
+                  </label>
+
+                  <label class="form-control">
+                    <input id="complete_plan" name="plan" type="radio" name="radio" />
+                    Complete Fitness Plan
+                  </label>
+
                 </div>
                 <div class="col-12">
                   <label for="message" class="form-label">
