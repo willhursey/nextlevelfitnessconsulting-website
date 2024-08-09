@@ -3,11 +3,11 @@
     "default": {
       "theme_color": {
         "primary": "#1d1d1d",
-        "secondary": "#dcf986",
-        "tertiary": "#5ea977",
-        "body": "#fff",
+        "secondary": "#d5302c",
+        "tertiary": "#d5302c",
+        "body": "#fae8d2",
         "border": "#e0e0e0",
-        "theme_light": "#fafafa"
+        "theme_light": "#fae8d2"
       },
       "text_color": {
         "default": "#464646",

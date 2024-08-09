@@ -1,14 +1,14 @@
 {
   "site": {
-    "title": "Fortify",
-    "base_url": "https://fortify-astro.vercel.app",
+    "title": "Next Level Fitness Consulting",
+    "base_url": "https://nextlevelfitnessconsulting.com",
     "base_path": "/",
     "trailing_slash": true,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.svg",
     "logo_width": "134",
     "logo_height": "47",
-    "logo_text": "Fortify"
+    "logo_text": "Next Level Fitness Consulting"
   },
 
   "settings": {
@@ -19,8 +19,7 @@
 
   "params": {
     "contact_form_action": "#",
-    "footer_description": "Securing Your Digital World: Your Trusted Partner in Data Protection with Cutting Edge Solutions for Data Security.",
-    "copyright": "Copyright © {year} Fortify. All Rights Reserved"
+    "copyright": "Copyright © {year} Next Level Fitness Consulting. All Rights Reserved"
   },
 
   "subscription": {
@@ -38,13 +37,13 @@
 
   "disqus": {
     "enable": true,
-    "shortname": "themefisher-template",
+    "shortname": "",
     "settings": {}
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "Next Level Fitness Consulting",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Security Saas & Startup Template"
+    "meta_description": "Get started on your fitness journey today."
   }
 }

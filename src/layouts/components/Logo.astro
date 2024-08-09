@@ -27,14 +27,14 @@ const {
       <ImageMod
         src={src ? src : logo}
         class={`inline-block`}
-        width={logo_width.replace("px", "") * 2}
-        height={logo_height.replace("px", "") * 2}
+        width={logo_width * 2}
+        height={logo_height * 2}
         alt={title}
         style={{
-          height: logo_height.replace("px", "") + "px",
-          width: logo_width.replace("px", "") + "px",
+          height: logo_height,
+          width: logo_width,
         }}
-        format="webp"
+        format="svg"
       />
     ) : logo_text ? (
       logo_text

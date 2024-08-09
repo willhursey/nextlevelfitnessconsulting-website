@@ -41,6 +41,9 @@ const { title, description, buttons, images }: Banner = (
                 class="mb-8 text-lg/[inherit]"
               />
             )}
+            {/* This section has two buttons on the Hero section of the home page currently 
+            "Get Started" and "Learn More" modify this if you want more or less buttons, 
+            if you want no buttons then remove this section*/}
             {buttons && (
               <ul class="flex flex-wrap justify-center gap-4">
                 {buttons.map(({ label, link }, index) => (
@@ -72,6 +75,7 @@ const { title, description, buttons, images }: Banner = (
                 class="col-12 lg:pt-2 order-2"
                 data-aos="fade-up-sm"
                 data-aos-delay="400">
+                {/* The below div displays a large image on the home screen, maybe display a meal plan here */}
                 <div class="max-h-[510px] overflow-hidden">
                   {images[0] && (
                     <ImageMod src={images[0].src} alt={images[0].alt} />
@@ -80,6 +84,7 @@ const { title, description, buttons, images }: Banner = (
               </div>
               <div class="col-12 pb-4 pt-16 lg:pb-0 order-1">
                 <div class="flex flex-wrap justify-center gap-4 px-4 lg:flex-nowrap lg:justify-between lg:px-0">
+                  {/* This section displays three images above the image mentioned above, maybe display stats here */}
                   {images.slice(1, 4).map(({ src, alt }, index) => (
                     <div
                       class={`${index === 0 ? "lg:mt-8 [&.aos-animate]:lg:!rotate-[-9.4deg]" : index === 1 ? "[&.aos-animate]:lg:!rotate-[2.57deg]" : "[&.aos-animate]:lg:!rotate-[-8.52deg]"}`}

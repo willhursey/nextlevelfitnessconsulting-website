@@ -62,8 +62,8 @@
   ],
   "footer_menu": [
     {
-      "name": "Feature",
-      "url": "/feature/"
+      "name": "Offerings",
+      "url": "/offerings/"
     },
     {
       "name": "Pricing",
@@ -84,8 +84,8 @@
       "url": "/privacy-policy/"
     },
     {
-      "name": "Support",
-      "url": "/support/"
+      "name": "Contact",
+      "url": "/contact/"
     }
   ]
 }

@@ -1,7 +1,7 @@
 ---
 # Banner
-title: "Your Trusted Partner in Comprehensive Web Security"
-description: "Securing Your Digital World: Your Trusted Partner in Data Protection with <br> Cutting-Edge Solutions for Comprehensive Data Security."
+title: "Your Trusted Partner in Fitness"
+description: "Helping you acheive your goals with a solid plan."
 bg_image: "/images/banner-bg.png"
 images:
   - src: "/images/banner-main.png" # Main Image
