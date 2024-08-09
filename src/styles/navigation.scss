@@ -1,0 +1,94 @@
+// navbar toggler
+input#nav-toggle:checked + label #show-button {
+  @apply hidden;
+}
+
+input#nav-toggle:checked + label #hide-button {
+  @apply block;
+}
+
+input#nav-toggle:checked ~ #nav-menu {
+  @apply max-lg:block;
+}
+
+.header {
+  @apply pb-5 pt-6;
+
+  // navbar items
+  .navbar {
+    @apply relative flex flex-wrap items-center lg:justify-between;
+  }
+}
+
+// Navbar Toggler
+.navbar-toggler {
+  @apply cursor-pointer rounded border-2 border-border border-opacity-75 p-1 lg:hidden;
+}
+
+.navbar-brand {
+  @apply text-xl text-dark;
+  img {
+    @apply max-h-full max-w-full;
+  }
+}
+
+.navbar {
+  @apply justify-start sm:justify-end;
+}
+.navbar-nav {
+  @apply border-border text-center lg:text-left;
+  @apply w-[calc(100%_-_25px)] max-lg:absolute max-lg:top-full max-lg:z-10 max-lg:mt-5 max-lg:rounded-2xl max-lg:border-dark max-lg:bg-white max-lg:px-4 max-lg:py-6 max-lg:shadow sm:w-[300px];
+
+  .nav-item {
+    &:hover .nav-link:not(.dropdown-toggle) {
+      @apply hover:after:w-4;
+    }
+
+    .nav-link {
+      @apply relative block px-3 py-2 font-medium text-text transition after:w-0 hover:text-tertiary lg:px-2 lg:py-3;
+
+      .arrow-icon {
+        @apply relative -z-10 inline-block align-[-2px] text-xs/snug transition-transform duration-300;
+      }
+    }
+  }
+}
+
+.nav-dropdown {
+  @apply mr-0;
+
+  .nav-link {
+    @apply cursor-pointer select-none;
+  }
+
+  .nav-dropdown-list {
+    @apply mx-auto min-w-[200px] max-w-[250px] rounded bg-body p-3 shadow lg:border;
+
+    .nav-dropdown-link {
+      @apply block rounded px-3 py-1.5 font-medium text-dark/70 transition hover:bg-tertiary/5 hover:text-tertiary;
+    }
+  }
+
+  // For Large Devices (Dropdown Arrow Icon)
+  &:hover .nav-link .arrow-icon {
+    @apply lg:rotate-180 lg:transform;
+  }
+
+  // For Small Devices
+  &.active {
+    // Dropdown Arrow Icon
+    .nav-link {
+      .arrow-icon {
+        @apply max-lg:rotate-180 max-lg:transform;
+      }
+      .icon {
+        @apply max-lg:rotate-180;
+      }
+    }
+
+    // Show Dropdown Menu On Click
+    .nav-dropdown-list {
+      @apply max-lg:block;
+    }
+  }
+}
