@@ -1,7 +1,7 @@
 ---
-subtitle: "How it Works"
-title: "How Fortify Security Solution Works"
-description: Your Trusted Partner in Data Protection with Cutting-Edge Solutions for <br> Comprehensive Data Security.
+subtitle: "Why choose us?"
+title: "We understand that not everyone feels comfortable with traditional personal training."
+description: That’s why we’ve created a service that empowers you to take charge of your fitness with the knowledge and confidence to achieve your goals. Our plans are designed to fit seamlessly into your life, no matter your schedule or fitness level. With Next Level Fitness Consulting, you’re not just getting a workout plan—you’re getting a roadmap to a healthier, stronger, and more confident you.
 list:
   - icon: "/images/icons/svg/detection.svg" # get outline svg icons from here - https://www.svgrepo.com/vectors/security/outlined/
     title: "Advanced Detection"

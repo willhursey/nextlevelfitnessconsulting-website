@@ -5,7 +5,7 @@ description: "this is meta description"
 date: 2022-04-04T05:00:00Z
 image: "/images/blog/2.jpg"
 categories: ["Technology", "Data"]
-author: "Sam Wilson"
+author: "Will Hursey"
 tags: ["technology", "tailwind"]
 draft: false
 ---

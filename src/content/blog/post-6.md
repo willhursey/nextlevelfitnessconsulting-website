@@ -5,7 +5,7 @@ description: "this is meta description"
 date: 2022-04-04T05:00:00Z
 image: "/images/blog/6.jpg"
 categories: ["Architecture"]
-author: "Jenny Wilson"
+author: "Will Hursey"
 tags: ["silicon", "technology"]
 draft: false
 ---

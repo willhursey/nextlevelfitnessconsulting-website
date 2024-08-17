@@ -152,9 +152,9 @@ declare module 'astro:content' {
   collection: "authors";
   data: InferEntrySchema<"authors">
 } & { render(): Render[".md"] };
-"jenny-wilson.md": {
-	id: "jenny-wilson.md";
-  slug: "jenny-wilson";
+"will-hursey.md": {
+	id: "will-hursey.md";
+  slug: "will-hursey";
   body: string;
   collection: "authors";
   data: InferEntrySchema<"authors">

@@ -1,20 +1,7 @@
 ---
 # Banner
-title: "Your Trusted Partner in Fitness"
-description: "Helping you acheive your goals with a solid plan."
-bg_image: "/images/banner-bg.png"
-images:
-  - src: "/images/banner-main.png" # Main Image
-    alt: "image alt"
-  - src: "/images/banner-1.png"
-    height: "72px"
-    alt: "image alt"
-  - src: "/images/banner-2.png"
-    height: "114px"
-    alt: "image alt"
-  - src: "/images/banner-3.png"
-    height: "134px"
-    alt: "image alt"
+title: "Transform your body. Elevate your life."
+description: "Are you ready to take control of your fitness journey but don’t know where to start? At Next Level Fitness Consulting, we provide personalized workout plans and expert guidance designed for self-motivated individuals just like you. Whether your goal is to lose weight, build muscle, or simply feel better in your own skin, our tailored approach ensures you have the tools and support to succeed—without the pressure of a one-on-one personal trainer."
 buttons:
   - enable: true
     label: "Get Started"

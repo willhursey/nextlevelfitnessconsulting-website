@@ -5,7 +5,7 @@ description: "this is meta description"
 date: 2022-04-04T05:00:00Z
 image: "/images/blog/3.jpg"
 categories: ["Software"]
-author: "Jenny Wilson"
+author: "Will Hursey"
 tags: ["software", "tailwind"]
 draft: false
 ---
